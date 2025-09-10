@@ -8,7 +8,7 @@ from datetime import timedelta
 
 schedule = pd.read_csv("protocol_schedule.csv")
 
-st.title("Clinical Trial Visit Scheduler")
+st.title("ATAI Visit Scheduler based on Pr V3")
 
 # Input patient ID and anchor date
 
@@ -44,4 +44,5 @@ if patient_id and anchor_date:
         mime="text/csv",
 
     )
+
  
